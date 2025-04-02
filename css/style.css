@@ -521,18 +521,7 @@ button{
     background-color: #31d0aa;
 }
 
-.footer-form-box{
-    width: 453px;
-    height: 80px;
-}
-
-.footer-form{
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-}
-
-.subscribe-label{
+.footer-form-descr{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -541,7 +530,13 @@ button{
     margin-bottom: 16px;
 }
 
-.subscribe-input{
+.footer-form{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-form-input{
     border: 1px solid #fff;
     border-radius: 4px;
     width: 264px;
@@ -549,40 +544,40 @@ button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
     padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
     margin-top: 0;
-}
-
-.subscribe-input::placeholder{
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     color: #fff;
 }
 
-.footer-btn{
-border-radius: 4px;
-padding: 8px 24px;
-width: 165px;
-height: 40px;
-align-self: flex-end;
-background: #4d5ae5;
-cursor: pointer;
-display: flex;
-align-items: center;
-justify-content: center;
-flex-direction: row;
-gap: 16px;
+.footer-form-input::placeholder{
+    color: #ffffff;
 }
 
-.footer-btn-text{
+.footer-btn{
+    border-radius: 4px;
+    border: none;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    font-family: "Roboto", sans-serif; 
     font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-text-align: center;
-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
+}
+.footer-form-icon{
+    margin-left: 16px;
+    fill: #fff;
 }
 
 .backdrop{
