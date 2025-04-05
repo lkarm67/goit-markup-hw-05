@@ -548,6 +548,7 @@ button{
     background-color: transparent;
     padding-left: 16px;
     margin-top: 0;
+    margin-left: 0;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -739,7 +740,8 @@ color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-checkbox{
-    margin-bottom: 24px; 
+    margin-bottom: 24px;
+
 }
 
 .modal-checkbox-label{
@@ -759,7 +761,11 @@ color: rgba(46, 47, 66, 0.4);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    
+}
 
+.modal-checkbox{
+    visibility: hidden;
 }
 
 .modal-checkbox:checked{
