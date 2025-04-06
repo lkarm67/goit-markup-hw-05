@@ -730,6 +730,7 @@ color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
+    outline:transparent;
     padding: 8px 16px; 
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -748,7 +749,8 @@ color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: #8e8f99;   
+    color: #8e8f99;
+    display: flex;   
 }
 
 .checkbox-span{
@@ -757,21 +759,17 @@ color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+    margin-right: 12px;
 }
 
-.modal-checkbox{
-    visibility: hidden;
-}
-
-.modal-checkbox:checked{
+.modal-checkbox:checked + .modal-checkbox-label .checkbox-span{
     background-color: #404bbf;
     border: none;
-    fill: #F4F4FD;
+    fill: #F4F4FD;    
 }
 
 .modal-form-checkbox-link{
